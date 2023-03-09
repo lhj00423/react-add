@@ -1,0 +1,125 @@
+#aboutme{
+    padding: 30px 0;
+}
+#content-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.titeng{
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 45px;
+    position: relative;
+    color: #1876f2;
+}
+#aboutme #content-box .titeng::after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px;
+    background-color:#1876f2 ;
+}
+
+#aboutme #abt-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#aboutme #abt-wrap > div {
+    border:  1px solid #c4c4c4;
+    padding: 20px;
+}
+
+
+#aboutme #abt-wrap > div:nth-child(1){
+    width: calc(100% / 2 - 5px);
+}
+
+#aboutme #abt-wrap > div:nth-child(2){
+    width: calc(100% / 2 - 5px);
+}
+
+
+#aboutme #abt-wrap > div:nth-child(3){
+    width: 100%;
+    margin: 5% auto;
+}
+
+#aboutme #abt-wrap > div ul{
+    padding-top: 30px;
+}
+#aboutme #abt-wrap > div ul li{
+    font-size: 14px;
+    line-height: 2;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    width: 100%;
+    text-align: left;
+}
+em{
+    font-style: normal;
+}
+#aboutme #abt-wrap > div ul li em{
+    display: block;
+    margin-bottom: 10px ;
+    font-weight: 500;
+    font-size: 16px;
+}
+#aboutme #abt-wrap > div ul li p{
+    font-weight: 400;
+    display: inline-block;
+}
+#aboutme #abt-wrap > div ul li span{
+    color: #777;
+}
+#aboutme #abt-wrap > div ul li p span{
+    padding-left:15px ;
+} 
+
+
+ @keyframes swing{
+    0%{ 
+     transform: translateY(40px);
+     }
+     50% {
+     transform: translateY(0);
+     }
+     100% {
+     transform: translateY(40px);
+     }
+ }
+
+.swing{
+    animation:swing 2s ease-in-out infinite;
+    width: 100%;
+    border: none;
+    position:relative;
+    left: 550px;
+}
+
+.more-btn{
+    font-size: .9rem;
+    color: #141414;
+    font-weight: 700;
+    display: block;
+    margin: 50px auto ;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #ddd;
+    line-height: 100px;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+}
+.more-btn:hover{
+    color: #e9d649;
+    background-color: #1876f2;;
+    border-color: #1876f2;;
+    font-weight: bolder;
+}

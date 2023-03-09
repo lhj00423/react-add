@@ -1,0 +1,73 @@
+.flt-nav{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.flt-nav p{
+    display: block;
+    writing-mode: vertical-rl;
+    margin: 1.5rem;
+    font-size: .8rem;
+    color: #F7ECDE;
+    transition: all .2s ease;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.flt-nav p:hover{
+    color: #e9d649;
+    cursor: pointer;
+    scale: 1.2;
+    transition: 1s;
+}
+.flt-nav-left{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+    text-align: center;
+}
+
+
+.flt-nav-left .fa-github{
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin: 1.5rem;
+    color: var(--main01-color);
+    font-size: 1.4rem;
+    transition: all .2s ease;
+}
+.fa-pen{
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin: 1.5rem;
+    color: var(--main01-color);
+    font-size: 1.4rem;
+    transition: all .2s ease;
+}
+.fa-blogger{
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin: 1.5rem;
+    color: var(--main01-color);
+    font-size: 1.4rem;
+    transition: all .2s ease;
+}
+.fa-instagram{
+    position: relative;
+    display: inline-block;
+    display: block;
+    margin: 1.5rem;
+    color: var(--main01-color);
+    font-size: 1.4rem;
+    transition: all .2s ease;
+}
+.flt-nav-left  .icon:hover{
+    color: #e9d649;
+    cursor: pointer;
+    scale: 1.2;
+    transition: 1s;
+}

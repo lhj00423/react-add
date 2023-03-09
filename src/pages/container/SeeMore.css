@@ -1,0 +1,167 @@
+#mainmore section{
+    text-align: center;
+    padding-top: 186px;
+}
+.content-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#mainmore section h2.tit{
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 45px;
+    position: relative;
+    color: #FFE162;
+}
+#mainmore section h2.tit::after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px;
+    background-color: #FFE162;
+}
+#mainmore .project-link{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#mainmore .project-link ul li{
+    display: inline-block;
+    font-size: 13px;
+    color: #fff;
+    padding: 6px 12px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+#mainmore .project-link ul li:hover{
+    background-color: #fff;
+    color: #2c3333;
+    transition: .2s;
+}
+#mainmore .project-link ul li + li{
+    margin-left: 10px;
+}
+#mainmore .project .project-cont {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+#mainmore .project-wrap .project-cont li{
+    width: calc(50%-5px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#mainmore .project .project-cont li{
+    width: calc(100% / 2 - 1px);
+    height: auto;
+    background-color: #fefefe;
+    border: 1px solid #2c3333;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 3%);
+    transition: all .3s linear;
+    margin-bottom: 10px;
+}
+#mainmore .project .project-cont li:hover{
+    
+    transition: .2s;
+}
+#mainmore .project-wrap .project-cont li .thum-img{
+    width: 35%;
+    height: 100%;
+}
+#mainmore .project .project-cont li .thum-img{
+    overflow: hidden;
+}
+#mainmore .project .project-cont li .thum-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+#mainmore .project .project-cont li img{
+    display: block;
+}
+#mainmore .project-wrap .project-cont li .txt-cont{
+    width: 65%;
+    padding: 1.5rem;
+}
+#mainmore .project-wrap .project-cont li .txt-cont{
+    width: 65%;
+    padding: 1.5rem;
+}
+#mainmore .project .project-cont li .txt-cont{
+    height: auto;
+    overflow: hidden;
+}
+#mainmore .project .project-cont li p{
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+    color: #2c3333;
+    font-size: 1.1rem;
+}
+#mainmore .project-wrap .project-cont li .txt-cont > span{
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#mainmore .project .project-cont li span{
+    font-size: 14px;
+    color: #777;
+    line-height: 2;
+}
+#mainmore .project .live-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.7rem;
+}
+#mainmore .project .live-btn a:hover{
+    cursor: pointer;
+    color: #fefefe;
+    background-color: #1876f2;
+}
+#mainmore .project-wrap .project-cont li .live-btn a{
+    width: 30%;
+}
+#mainmore .project .live-btn a {
+    display: block;
+    margin-right: 3px;
+    background-color: #fff;
+    color: #2c3333;
+    font-size: .8rem;
+    font-weight: 400;
+    height: 2.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    transition: all .2s linear;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+#mainmore .project .live-btn a span{
+    display: inline-block;
+    font-size: inherit;
+    color: inherit;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+#mainmore .project .project-cont li span{
+    line-height: 2;
+}
+#mainmore #say-goodbye{
+    padding: 180px 0;
+}
+#mainmore #say-goodbye h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}

@@ -1,0 +1,57 @@
+.contact-box p{
+    display: inline;
+}
+#contact{
+    padding: 80px 0;
+    margin-bottom: 80px;
+}
+.content-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    color: #F7ECDE;
+    line-height: 1.4;
+}
+.content-box h2.tit {
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 45px;
+    position: relative;
+    color: #1876f2;
+}
+.contact .content-box h2.titeng::after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px;
+    background-color:#1876f2;
+}
+.contact .contact-box p{
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+
+}
+.contact .contacts-box{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: #1876f2;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    transition: all .3s ease;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+} 
+.contact .contacts-box:hover{
+    cursor: pointer;
+    background-color: #0e2c53;
+    color: #1876f2;
+}
+.contact .contact-box #p-tag{
+    margin-bottom: 50px;
+}

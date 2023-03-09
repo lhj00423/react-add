@@ -1,0 +1,127 @@
+.content-box{
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+#project .content-box .titeng::after{
+    content: '';
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px;
+    background-color:#1876f2 ;
+}
+
+.project-top4 ul{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10rem ;
+}
+.project-top4 ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+.project-top4 ul li #top4-ball{
+    width: 50%;
+    height: 310px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+    transition: transform .5s ease-in;
+}
+.project-top4 ul li #top4-ball img{
+    width: 598px;
+    height: 308px;
+    object-fit: cover;
+}
+
+.project-top4 ul li #top4-ball img:hover{
+    
+}
+
+
+.project-top4 ul li .top4-cont {
+    text-align: left;
+    width: 50%;
+    height: 100%;
+    color: #fff;
+    padding: 2rem 2vw;
+    border-radius: 5px;
+}
+.project-top4 ul li .top4-cont span{
+    display: block;
+    margin-bottom: 1rem ;
+}
+.project-top4 ul li .top4-cont > span:nth-of-type(1)::after{
+    content: '';
+    width: 40%;
+    height: 1px;
+    display: inline-block;
+    margin-left:0.7rem ;
+    background-color: #fff;
+}
+.project-top4 ul li .top4-cont em{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+    display: block;
+}
+.project-top4 ul li .top4-cont .sub-tit{
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.project-top4 ul li .top4-cont .cont-txt{
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+#project .live-btn{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    margin-top: 1.7rem;
+}
+#project .live-btn a{
+    width: 149.11px;
+}
+#project .live-btn a h6{
+    width: 100%;
+}
+#project .live-btn h6{
+    display: block;
+    width: calc(100% / 3.5);
+    margin-right: 3px;
+    background-color: #fff;
+    color: #2c3333;
+    font-size: .8rem;
+    font-weight: 400;
+    height: 2.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 1px;
+    transition: all .2s linear;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#project .live-btn h6 span{
+    display: inline-block;
+    font-size: inherit;
+    color: inherit;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+#project .live-btn h6:hover{
+    background-color: #1876f2;
+    color: #f5f5ff;
+    border: #1876f2;
+}
