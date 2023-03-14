@@ -71,3 +71,12 @@
     scale: 1.2;
     transition: 1s;
 }
+#headerul{
+    color:var(--color4);
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 135px;
+    right: 0px;
+  }

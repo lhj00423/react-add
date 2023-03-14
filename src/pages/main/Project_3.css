@@ -92,6 +92,7 @@ img{
 }
 #project .live-btn a{
     width: 149.11px;
+    margin-right: 6px;
 }
 #project .live-btn a h6{
     width: 100%;
@@ -99,7 +100,6 @@ img{
 #project .live-btn h6{
     display: block;
     width: calc(100% / 3.5);
-    margin-right: 3px;
     background-color: #fff;
     color: #2c3333;
     font-size: .8rem;

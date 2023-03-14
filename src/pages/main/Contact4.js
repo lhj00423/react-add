@@ -8,8 +8,8 @@ const Contact4 = () => {
                 <h2 className='titeng'>PLEASE CONTACT ME !</h2>
                 <div className='contact-box'>
                     <div id="p-tag">
-                        <p className='error'>error</p><p>를</p>&nbsp;
-                        <p className='successfully'>successfully</p><p>로 바꾸며, 성장하고 싶은 개발자입니다 !</p>
+                        <p className='error'>Error</p><p>를</p>&nbsp;
+                        <p className='successfully'>Successfully</p><p>로 바꾸며, 성장하고 싶은 개발자입니다 !</p>
                     </div>
                         <div className='contacts-box'>
                             <span>Contact me on E-mail💌</span><br/>

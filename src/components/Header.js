@@ -1,29 +1,40 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css'; 
 
-const Header = () => {
+
+// function About(){
+//   window.scrollTo({
+//     top:614,
+//     behavior:'smooth'
+//   })
+// }
+// function Project(){
+//   window.scrollTo({
+//     top:2197,
+//     behavior:'smooth'
+//   })
+// }
+// function Contact(){
+//   window.scrollTo({
+//     top:3734,
+//     behavior:'smooth'
+//   })
+// }
+const Header = ({scrollToTop}) => {
     return (
         <div id="header">
             <div id="hd-top">
             <div id="ddd">
               <div id="headerborder">
-                <p id="DEVELOPER">DEVELOPER LHJ</p>
+                <Link to='/main'><p onClick={scrollToTop} id="DEVELOPER">DEVELOPER LHJ</p></Link>
                 <h1 id="PORTFOLIO">PORTFOLIO WEBSITE💻</h1>
               </div>
             </div>
             <div>
               <p id='lhj-p'> 꾸준히 자기계발하는 개발자 <b>이효정</b>의 포트폴리오입니다. </p>
             </div>
-            <div>
-                <ul id="headerul">
-                    <li id="headerli"><p>ABOUT</p></li>
-                    <li id="headerli" ><p> PROJECT</p></li>
-                    <li id="headerli" ><p>CONTACT</p></li>
-                 <div id="light-btn">
-                    <span></span>
-                  </div>   
-                </ul>
-              </div>
+            
           </div>
         </div>
     );

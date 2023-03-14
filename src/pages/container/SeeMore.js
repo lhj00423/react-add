@@ -18,94 +18,113 @@ const SeeMore = () => {
                     </div> 
                     <div className='project-wrap'>
                         <ul className='project-cont'>
-                            <li>
+                            <li id="hotel">
                                 <div className='thum-img'>
                                     <img src='/images/hotel.jpg' alt=''/>
                                 </div>
                                 <div className='txt-cont'>
-                                    <p>호텔 사이트 모티브로 반응형 웹사이트 </p>
+                                    <p>호텔 사이트 반응형 웹사이트 </p>
                                     <span>
                                         " HTML / CSS "
                                         <br/>
-                                        "영화서비스 API를 활용한 PC형 영화 웹사이트"
+                                        "반응형 사이트로 1260px, 1006px,<br/>
+                                        762px, 622px, 476px,크기로 디스플레이 구현함"
                                     </span>
                                     <div className='live-btn'>
-                                        <a href=''>
-                                            VIEW
+                                    <a href='http://lhj100411.dothome.co.kr/hotel/index.html'>
+                                        <h6>
+                                            VIEW 
                                             <span>LIVE</span>
-                                        </a>
-                                        <a href=''>
-                                            VIEW
-                                            <span>GITHUB</span>
+                                        </h6>
+                                    </a>
+                                        <a href='https://github.com/lhj00423/rago-hotel-css'>
+                                            <h6>
+                                                VIEW
+                                                <span>GITHUB</span>
+                                            </h6>
                                         </a>
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li id="galaxy-site">
                                 <div className='thum-img'>
                                     <img src='/images/galaxy.jpg' alt=''/>
                                 </div>
                                 <div className='txt-cont'>
-                                    <p>메가박스 클론 코딩 + 영화 </p>
+                                    <p>Galaxy 렌트카 사이트 </p>
                                     <span>
-                                        "HTML / CSS / React"
+                                        "HTML / CSS "
                                         <br/>   
-                                        "영화서비스 API를 활용한 PC형 영화 웹사이트"
+                                        "hover했을 떄 bg 보이는 스타일링 적용,<br/>
+                                        반응형 사이트로 768PX 이하일떄 구현함"
                                     </span>
                                     <div className='live-btn'>
-                                        <a href=''>
-                                            VIEW
-                                            <span>LIVE</span>
+                                        <a href='http://lhj100411.dothome.co.kr/galaxy/index.galaxy.html'>
+                                            <h6>
+                                                VIEW
+                                                <span>LIVE</span>
+                                            </h6>
                                         </a>
-                                        <a href=''>
-                                            VIEW
-                                            <span>GITHUB</span>
+                                        <a href='https://github.com/lhj00423/galaxy-site-css'>
+                                            <h6>
+                                                VIEW
+                                                <span>GITHUB</span>
+                                            </h6>
                                         </a>
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li id="indigo">
                                 <div className='thum-img'>
                                     <img src='/images/indigo.jpg' alt=''/>
                                 </div>
                                 <div className='txt-cont'>
-                                    <p>메가박스 클론 코딩 + 영화 </p>
+                                    <p>외국 사이트 반응형 사이트 구현 </p>
                                     <span>
-                                        "HTML / CSS / React"
+                                        " HTML / CSS "
                                         <br/>
-                                        "영화서비스 API를 활용한 PC형 영화 웹사이트"
+                                        " 웹사이트 1024px, 768px 순으로 화면 구현함 "
                                     </span>
                                     <div className='live-btn'>
-                                        <a href=''>
-                                            VIEW
-                                            <span>LIVE</span>
+                                        <a href='http://lhj100411.dothome.co.kr/indigo/index.html'>
+                                            <h6>
+                                                VIEW
+                                                <span>LIVE</span>
+                                            </h6>
                                         </a>
-                                        <a href=''>
-                                            VIEW
-                                            <span>GITHUB</span>
+                                        <a href='https://github.com/lhj00423/indigo-site-css'>
+                                            <h6>
+                                                VIEW
+                                                <span>GITHUB</span>
+                                            </h6>
                                         </a>
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li id="samsung-site">
                                 <div className='thum-img'>
                                     <img src='/images/삼성생명.jpg' alt=''/>
                                 </div>
                                 <div className='txt-cont'>
-                                    <p>메가박스 클론 코딩 + 영화 </p>
+                                    <p>Samsung 사이트</p>
                                     <span>
-                                        "HTML / CSS / React"
+                                        "HTML / CSS "
                                         <br/>
-                                        "영화서비스 API를 활용한 PC형 영화 웹사이트"
+                                        "header,main,footer, 구간 나누어 기본 스타일링 적용<br/>
+                                        display, transform 활용함"
                                     </span>
                                     <div className='live-btn'>
-                                        <a href=''>
-                                            VIEW
-                                            <span>LIVE</span>
+                                        <a href='http://lhj100411.dothome.co.kr/samsung/index2.te.html'>
+                                            <h6>
+                                                VIEW
+                                                <span>LIVE</span>
+                                            </h6>
                                         </a>
-                                        <a href=''>
-                                            VIEW
-                                            <span>GITHUB</span>
+                                        <a href='https://github.com/lhj00423/samsung-site-css'>
+                                            <h6>
+                                                VIEW
+                                                <span>GITHUB</span>
+                                            </h6>
                                         </a>
                                     </div>
                                 </div>

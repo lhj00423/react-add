@@ -55,3 +55,11 @@
 .contact .contact-box #p-tag{
     margin-bottom: 50px;
 }
+#p-tag .error{
+    color: rgb(233, 54, 54);
+    font-weight: 500;
+}
+#p-tag .successfully{
+    color: rgb(125, 214, 132);
+    font-weight: 500;
+}

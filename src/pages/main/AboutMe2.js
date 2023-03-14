@@ -62,7 +62,7 @@ const AboutMe2 = () => {
                                         배열과 객체의 값을 구조 분해 할당후 활용할수 있음 / 
                                         정규표현식을 이용하여 회원가입, 아이디, 비밀번호 입력시에 최적화함 / 
                                         typescript 교육 수강때 todolist구현시에 활용한 경험있음
-                                    </span>
+                                    </span> 
                                 </li>
                                 <li>
                                     <em>PHP</em>

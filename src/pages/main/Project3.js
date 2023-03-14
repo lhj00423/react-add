@@ -7,7 +7,7 @@ const Project3 = () => {
             <div className='content-box'>
                 <h2 className='titeng'>PROJECT</h2>
                 <div className='project-top4'>
-                    <ul>
+                    <ul> 
                         <li id="ball">
                             <div id="top4-ball">
                                 <img src='/images/javascript_ball.png' alt=""></img>
@@ -24,17 +24,21 @@ const Project3 = () => {
                                     스윙 ,볼 확률 실제 경기처럼 조정
                                 </p>
                                 <div className='live-btn'>
+                                <a href='http://lhj100411.dothome.co.kr/Javascript_project/baseball.html'>
                                     <h6>
                                          VIEW 
                                         <span>LIVE</span>
                                     </h6>
-                                    <a href='https://github.com/lhj00423'><h6>
-                                        VIEW  
-                                        <span>GITHUB</span>
-                                    </h6></a>
+                                </a>    
+                                    <a href='https://github.com/lhj00423/baseball-game'>
+                                        <h6>
+                                            VIEW  
+                                            <span>GITHUB</span>
+                                        </h6>
+                                    </a>
                                 </div>
                             </div>
-                        </li>
+                        </li> 
                         <li id="among-us">
                             <div className='top4-cont'>
                                     <span> HTML5, CSS3, JavaScript </span>
@@ -49,14 +53,18 @@ const Project3 = () => {
                                         게임 난이도를 높이기 위해 캐릭터 등장시간 조정
                                     </p>
                                     <div className='live-btn'>
+                                    <a href='http://lhj100411.dothome.co.kr/Amongus_Game/index.html'>
                                         <h6>
                                             VIEW 
                                             <span>LIVE</span>
                                         </h6>
-                                        <a href='https://github.com/lhj00423'><h6>
-                                            VIEW  
-                                            <span>GITHUB</span>
-                                        </h6></a>
+                                    </a>
+                                        <a href='https://github.com/lhj00423/Among-Us-Game'>
+                                            <h6>
+                                                VIEW  
+                                                <span>GITHUB</span>
+                                            </h6>
+                                        </a>
                                     </div>
                             </div>
                             <div id="top4-ball">
@@ -71,7 +79,7 @@ const Project3 = () => {
                                 <span> HTML5, CSS3, PHP, MYSQL </span>
                                 <em>Muise-Site</em>
                                 <p className='sub-tit'>
-                                    PHP, MYSQL으로 구현하여, 데이터베이스 전송 가능한 사이트입니다.
+                                    PHP, MYSQL으로 구현하여, 데이터베이스 전송 가능한 음악 사이트입니다.
                                 </p>
                                 <p className='cont-txt'>
                                     회원가입, 로그인 및 아이디,비밀번호 찾기 기능 가능 / 검색 기능 구현 / 
@@ -79,20 +87,24 @@ const Project3 = () => {
                                     관리자 아이디로 로그인하면 앨범아트 등록 가능
                                 </p>
                                 <div className='live-btn'>
-                                    <h6>
-                                         VIEW 
-                                        <span>LIVE</span>
-                                    </h6>
-                                    <a href='https://github.com/lhj00423'><h6>
-                                        VIEW  
-                                        <span>GITHUB</span>
-                                    </h6></a>
+                                    <a href='http://lhj100411.dothome.co.kr/AW/index.php'>
+                                        <h6>  
+                                            VIEW 
+                                            <span>LIVE</span>
+                                        </h6>
+                                    </a>
+                                    <a href='https://github.com/lhj00423/AW_music'>
+                                        <h6>
+                                            VIEW  
+                                            <span>GITHUB</span>
+                                        </h6>
+                                    </a>
                                 </div>
                             </div>
                         </li>
                         <li id="react">
                             <div className='top4-cont'>
-                                <span> HTML5, CSS3, REACT</span>
+                                <span> HTML5, CSS3, REACT.js</span>
                                 <em>Cafe-Site</em>
                                 <p className='sub-tit'>
                                     React를 이용하여 starbucks을 모티브로 만든 카페사이트 입니다.
@@ -104,14 +116,18 @@ const Project3 = () => {
                                     카테고리를 나누어 관리자 모드시에 등록 가능
                                 </p>
                                 <div className='live-btn'>
-                                    <h6>
-                                        VIEW 
-                                    <span>LIVE</span>
-                                    </h6>
-                                    <a href='https://github.com/lhj00423'><h6>
-                                        VIEW  
-                                        <span>GITHUB</span>
-                                    </h6></a>
+                                    <a href='https://github.com/lhj00423'>
+                                        <h6>
+                                            VIEW 
+                                            <span>LIVE</span>
+                                        </h6>
+                                    </a>    
+                                    <a href='https://github.com/lhj00423/AWcafe-project'>
+                                        <h6>
+                                            VIEW  
+                                            <span>GITHUB</span>
+                                        </h6>
+                                    </a>
                                 </div>
                             </div>
                             <div id="top4-ball">

@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer';
@@ -10,14 +11,33 @@ import Project3 from './pages/main/Project3';
 
 
 function App() {
+  const scrollToTop = () =>{
+    window.scrollTo({
+      top:0,
+      behavior:'smooth'
+    })
+  }
+  const handlerScroll = () =>{
+    console.log("scrolling");
+    console.log(window.scrollY);
+  }
+  useEffect(()=>{
+    const timer = setInterval(()=>{
+      window.addEventListener("scroll",handlerScroll);
+    },100);
+    return()=>{
+      clearInterval(timer);
+      window.removeEventListener("scroll",handlerScroll);
+    }
+  })
   return (
     <div className="App">
-    <Header/> 
+    <Header scrollToTop={scrollToTop}/> 
     <Routes>
-      <Route path='/' element={<Main/>}></Route>
-      <Route path='/' element={<AboutMe2/>}/>
-      <Route path='/' element={<Project3/>}/>
-      <Route path='/' element={<Contact4/>}/>
+      <Route path='/main' element={<Main/>}/>
+      <Route path='/aboutme' element={<AboutMe2/>}/>
+      <Route path='/project' element={<Project3/>}/>
+      <Route path='/contact' element={<Contact4/>}/>
       <Route path='/seemore' element={<SeeMore/>}/>
     </Routes>
     <Footer/>
